@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/bg">
+
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:src="@drawable/titlebar" />
+        
+        <Button
+            android:id="@+id/btn_rch"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_x="17dp"
+            android:layout_y="106dp"
+            android:background="@drawable/rechercher"
+            android:textColor="#12147c"
+            android:textSize="24dp" />
+        
+        <Button
+            android:id="@+id/btn_tet"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_x="17dp"
+            android:layout_y="179dp"
+            android:background="@drawable/tetouan"
+            android:textColor="#12147c"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn_meteo"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_x="17dp"
+            android:layout_y="252dp"
+            android:background="@drawable/meteo"
+            android:textColor="#12147c"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn_cnvr"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_x="17dp"
+            android:layout_y="325dp"
+            android:background="@drawable/convertisseur"
+            android:textColor="#12147c"
+            android:textSize="24dp" />
+        
+                <Button
+            android:id="@+id/btn_param"
+            android:layout_width="285dp"
+            android:layout_height="45dp"
+            android:layout_x="17dp"
+            android:layout_y="398dp"
+            android:background="@drawable/parametres"
+            android:textColor="#12147c"
+            android:textSize="24dp" />
+
+
+    </AbsoluteLayout>
+
+</RelativeLayout>

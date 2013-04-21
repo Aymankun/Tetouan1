@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tetouan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="spinner_name">Votre choix</string>
+    <string-array name="Choix">
+        
+        <item >Hôtels</item>
+        <item >Maisons d\'hôtes</item>
+        <item >Camping</item>
+        <item > 5ay 7med</item>
+        <item >bbb</item>
+        <item >oooo3</item>
+        <item >pppp</item>
+       
+    </string-array>
+
+</resources>
